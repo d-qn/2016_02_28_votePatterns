@@ -50,17 +50,10 @@ cols <- c(rep("black", nrow(voteCH)), swi_pal[9])
 
 pdfswi_long("populist_slopegraph.pdf")
 par(family = font)
-slopegraph(df, rescaleByColumn = F, cex.lab = 0.5, cex.num = 0.6, lab.sep = 0.25,
-	offset.x = 0.08, offset.lab = 0.03, xlim = c(-1, ncol(voteCH) + 1.2),
+slopegraph(round(df), rescaleByColumn = F, cex.lab = 0.5, cex.num = 0.6, lab.sep = 0.25,
+	offset.x = 0.038, offset.lab = 0.03, xlim = c(0.5, ncol(df) + 0.6),
 	collapse.label = ", ", lwd =  scale(lineW, center = F), col.lines = cols, mai = c(0, 0, 0.6, 0),
 	main = "")
-
-par(family = font)
-slopegraph(df, rescaleByColumn = F, cex.lab = 0.5, cex.num = 0.6, lab.sep = 0.25,
-	offset.x = 0.045, offset.lab = 0.03, xlim = c(-1.2, ncol(votes) + 1.2),
-	collapse.label = ", ", lwd =  scale(lineW, center = F) / 2, col.lines = cols, mai = c(0.01, 0, 0.9, 0))
-dev.off()
-
 
 ### SVG HTML
 # doc <- tags$html(
