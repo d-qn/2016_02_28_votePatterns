@@ -1,10 +1,16 @@
 #source("~/swissinfo/_helpers/helpers.R")
 library(swiTheme)
 library(swiMap)
+library(ggrepel)
+library(svglite)
 
 ############################################################################################
 ###   SETTINGS
 ############################################################################################
+
+svgoutput <- T
+svg.height <- 15
+svg.width <- svg.height * 1.3
 
 # query data.frame data
 qfiles <- c("data/reproductive_medicine.csv", "data/student_grants.csv", "data/inheritances_tax.csv", "data/radio_tv_act.csv")
@@ -13,7 +19,7 @@ qfiles <- c("data/reproductive_medicine.csv", "data/student_grants.csv", "data/i
 # indicator data
 ifiles <- c("~/swissinfo/_helpers/cantonal/cantonalIndicators.csv")
 
-source <- "Office Fédéral de la Statistique "
+source <- "source: Office Fédéral de la Statistique | swissinfo.ch "
 font <- "Open Sans"
 
 ############################################################################################
@@ -90,7 +96,8 @@ for (f in 1:length(qfiles)) {
 
 
 	# plot only the highest p-values
-	pdfswi_sq(paste0("output/", voteName, "_signif.pdf"))
+	if(!svgoutput) pdfswi_sq(paste0("output/", voteName, "_signif.pdf"))
+
 	idxs <- which(cortest[2,] <= 0.05)
 	col <- idxs[order(cortest[2,idxs])]
 	sapply(col, function(j) {
@@ -101,7 +108,7 @@ for (f in 1:length(qfiles)) {
 		df$color <- cut(df$vote,  breaks = seq(0, 100, 10))
 
 		sp <- ggplot(data = df, aes(x = vote, y = indicator)) +
-		# add veritcal line at 50%
+		# add veritcal line at 50%  -------- ???!!!!
 		#geom_vline( x = 50, linetype = "dashed", color = "black", size = 0.5, alpha = 0.5) +
 		# liner regression
 		geom_smooth(method=lm, se=FALSE, alpha = 0.8, linetype = "dotted", color = "#663333", size = 0.5)  +
@@ -115,14 +122,21 @@ for (f in 1:length(qfiles)) {
 		scale_colour_manual(values = rev(swi_dpal), limits = levels(df$color)) +
 		# remove legend and add ticks
 		theme(legend.position = "none") + scale_x_continuous(breaks=pretty_breaks(n=6)) +
-		# add text over bubble
-		geom_text(data = cbind(df, text = rownames(df)), aes(x = vote, y = indicator, label = text), size = rel(4), alpha = 0.7, family = font)
+		# add text over bubble ----------------------- ?!?!????????? Use repel if too much overlapping
+		#geom_text(data = cbind(df, text = rownames(df)), aes(x = vote, y = indicator, label = text), size = rel(4), alpha = 0.7, family = font)
+		geom_text_repel(data = cbind(df, text = rownames(df)), aes(x = vote, y = indicator, label = text), size = rel(4), alpha = 0.7, family = font)
 
+		if(svgoutput) {
+		  svglite(file = paste0("output/", voteName, "_signif_", j, "_a.svg"), height = svg.height, width = svg.width)
+		}
 		#print(sp)
 		grid.arrange(sp,
 		 bottom = textGrob(source, x = 0.99, y = 1, vjust = 0.1, hjust = 1,
 		  gp = gpar(fontsize = 10, fontfamily = font, col = "#737373", alpha = 0.6))
 		)
+		if(svgoutput) {
+		  dev.off()
+		}
 
 	})
 	# dev.off()
@@ -136,8 +150,8 @@ for (f in 1:length(qfiles)) {
 		df$color <- canton_CH[match(rownames(df), canton_CH[,1]), 'isLatin']
 
 		sp <- ggplot(data = df, aes(x = vote, y = indicator)) +
-		# add veritcal line at 50%
-		#geom_vline( x = 50, linetype = "dashed", color = "black", size = 0.5, alpha = 0.5) +
+		# add veritcal line at 50% -------- ???
+		# geom_vline( x = 50, linetype = "dashed", color = "black", size = 0.5, alpha = 0.5) +
 		# liner regression
 		geom_smooth(method=lm, se=FALSE, alpha = 0.8, linetype = "dotted", color = "#663333", size = 0.5)  +
 		# bubbles
@@ -151,14 +165,22 @@ for (f in 1:length(qfiles)) {
 		# remove legend and add ticks
 		theme(legend.position = "none") + scale_x_continuous(breaks=pretty_breaks(n=6)) +
 
-		# add text over bubble
-		geom_text(data = cbind(df, text = rownames(df)), aes(x = vote, y = indicator, label = text), size = rel(4), alpha = 0.7, family = font)
+		# add text over bubble --------- use repel if too much overlapping !?!?!
+		#geom_text(data = cbind(df, text = rownames(df)), aes(x = vote, y = indicator, label = text), size = rel(4), alpha = 0.7, family = font)
+		geom_text_repel(data = cbind(df, text = rownames(df)), aes(x = vote, y = indicator, label = text), size = rel(4), alpha = 0.7, family = font)
 
+
+		if(svgoutput) {
+		  svglite(file = paste0("output/", voteName, "_signif_", j, "_b.svg"), height = svg.height, width = svg.width)
+		}
 		#print(sp)
 		grid.arrange(sp,
-		  bottom = textGrob(source, x = 0.99, y = 1, vjust = 0.1, hjust = 1,
+		  bottom = textGrob(source, x = 0.97, y = 1, vjust = 0.1, hjust = 1,
 		    gp = gpar(fontsize = 10, fontfamily = font, col = "#737373", alpha = 0.6))
 		)
+		if(svgoutput) {
+		  dev.off()
+		}
 	})
 	dev.off()
 

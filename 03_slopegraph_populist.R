@@ -46,14 +46,19 @@ df <- voteCH %>% select(-`Contre la construction de minarets (29 11 2009)`, -`Co
 
 lineW <- pop[match(canton_namesStrict(rownames(df)), rownames(pop)),1]
 lineW <- c(lineW,  max(lineW) + mean(lineW))
-cols <- c(rep("black", nrow(voteCH)), swi_pal[9])
+cols <- c(rep("black", nrow(df)), swi_pal[9])
+
+idxLat <- match(rownames(df), canton_CH[,'français3'])
+cols <- ifelse(canton_namesStrict(rownames(df), "isLatin") == "TRUE", "#366096", "#ab3d3f")
+
 
 pdfswi_long("populist_slopegraph.pdf")
 par(family = font)
-slopegraph(round(df), rescaleByColumn = F, cex.lab = 0.5, cex.num = 0.6, lab.sep = 0.25,
-	offset.x = 0.038, offset.lab = 0.03, xlim = c(0.5, ncol(df) + 0.6),
+slopegraph(round(df), rescaleByColumn = F, cex.lab = 0.7, cex.num = 0.7, lab.sep = 0.25,
+	offset.x = 0.038, offset.lab = 0.03, xlim = c(-0.1, ncol(df) + 0.9),
 	collapse.label = ", ", lwd =  scale(lineW, center = F), col.lines = cols, mai = c(0, 0, 0.6, 0),
 	main = "")
+dev.off()
 
 ### SVG HTML
 # doc <- tags$html(

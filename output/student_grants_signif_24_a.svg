@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 1008.00 864.00'>
+<defs>
+  <style type='text/css'><![CDATA[
+    line, polyline, path, rect, circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<polyline points='82.71,745.06 979.65,745.06 ' style='stroke-width: 0.21; stroke: #D3D3D3;' />
+<polyline points='82.71,579.54 979.65,579.54 ' style='stroke-width: 0.21; stroke: #D3D3D3;' />
+<polyline points='82.71,414.01 979.65,414.01 ' style='stroke-width: 0.21; stroke: #D3D3D3;' />
+<polyline points='82.71,248.49 979.65,248.49 ' style='stroke-width: 0.21; stroke: #D3D3D3;' />
+<polyline points='123.48,483.17 133.80,486.13 144.12,489.09 154.45,492.05 164.77,495.01 175.09,497.97 185.41,500.93 195.73,503.89 206.05,506.85 216.37,509.81 226.70,512.77 237.02,515.73 247.34,518.69 257.66,521.65 267.98,524.61 278.30,527.57 288.63,530.53 298.95,533.48 309.27,536.44 319.59,539.40 329.91,542.36 340.23,545.32 350.56,548.28 360.88,551.24 371.20,554.20 381.52,557.16 391.84,560.12 402.16,563.08 412.48,566.04 422.81,569.00 433.13,571.96 443.45,574.92 453.77,577.88 464.09,580.84 474.41,583.80 484.74,586.75 495.06,589.71 505.38,592.67 515.70,595.63 526.02,598.59 536.34,601.55 546.66,604.51 556.99,607.47 567.31,610.43 577.63,613.39 587.95,616.35 598.27,619.31 608.59,622.27 618.92,625.23 629.24,628.19 639.56,631.15 649.88,634.11 660.20,637.07 670.52,640.02 680.84,642.98 691.17,645.94 701.49,648.90 711.81,651.86 722.13,654.82 732.45,657.78 742.77,660.74 753.10,663.70 763.42,666.66 773.74,669.62 784.06,672.58 794.38,675.54 804.70,678.50 815.02,681.46 825.35,684.42 835.67,687.38 845.99,690.34 856.31,693.29 866.63,696.25 876.95,699.21 887.28,702.17 897.60,705.13 907.92,708.09 918.24,711.05 928.56,714.01 938.88,716.97 ' style='stroke-width: 1.07; stroke: #663333; stroke-dasharray: 1,3; stroke-linecap: butt;' />
+<circle cx='396.69' cy='657.39' r='36.94pt' style='stroke-width: 0.71; stroke: #BEA472; stroke-opacity: 0.70; fill: #BEA472; fill-opacity: 0.70;' />
+<circle cx='123.48' cy='115.28' r='5.69pt' style='stroke-width: 0.71; stroke: #B09766; stroke-opacity: 0.70; fill: #B09766; fill-opacity: 0.70;' />
+<circle cx='353.63' cy='657.61' r='14.57pt' style='stroke-width: 0.71; stroke: #BEA472; stroke-opacity: 0.70; fill: #BEA472; fill-opacity: 0.70;' />
+<polyline points='504.97,774.27 514.59,773.25 523.80,770.26 532.18,765.42 539.38,758.94 545.07,751.11 549.00,742.27 551.02,732.80 551.02,723.12 549.00,713.65 545.07,704.81 539.38,696.98 532.18,690.50 523.80,685.66 514.59,682.67 504.97,681.66 495.34,682.67 486.13,685.66 477.75,690.50 470.55,696.98 464.86,704.81 460.93,713.65 458.91,723.12 458.91,732.80 460.93,742.27 464.86,751.11 470.55,758.94 477.75,765.42 486.13,770.26 495.34,773.25 ' style='stroke-width: 0.71; stroke: #BEA472; stroke-opacity: 0.70; fill: #BEA472; fill-opacity: 0.70;' />
+<circle cx='499.51' cy='676.83' r='26.55pt' style='stroke-width: 0.71; stroke: #BEA472; stroke-opacity: 0.70; fill: #BEA472; fill-opacity: 0.70;' />
+<circle cx='707.33' cy='691.04' r='22.76pt' style='stroke-width: 0.71; stroke: #CCB27E; stroke-opacity: 0.70; fill: #CCB27E; fill-opacity: 0.70;' />
+<circle cx='595.63' cy='577.33' r='26.92pt' style='stroke-width: 0.71; stroke: #BEA472; stroke-opacity: 0.70; fill: #BEA472; fill-opacity: 0.70;' />
+<circle cx='938.88' cy='664.17' r='30.42pt' style='stroke-width: 0.71; stroke: #DBBF8B; stroke-opacity: 0.70; fill: #DBBF8B; fill-opacity: 0.70;' />
+<circle cx='395.58' cy='606.84' r='22.63pt' style='stroke-width: 0.71; stroke: #BEA472; stroke-opacity: 0.70; fill: #BEA472; fill-opacity: 0.70;' />
+<circle cx='830.87' cy='469.92' r='15.15pt' style='stroke-width: 0.71; stroke: #CCB27E; stroke-opacity: 0.70; fill: #CCB27E; fill-opacity: 0.70;' />
+<circle cx='376.14' cy='520.57' r='31.15pt' style='stroke-width: 0.71; stroke: #BEA472; stroke-opacity: 0.70; fill: #BEA472; fill-opacity: 0.70;' />
+<circle cx='934.64' cy='716.18' r='20.67pt' style='stroke-width: 0.71; stroke: #DBBF8B; stroke-opacity: 0.70; fill: #DBBF8B; fill-opacity: 0.70;' />
+<circle cx='374.83' cy='576.83' r='33.24pt' style='stroke-width: 0.71; stroke: #BEA472; stroke-opacity: 0.70; fill: #BEA472; fill-opacity: 0.70;' />
+<circle cx='563.58' cy='701.79' r='17.83pt' style='stroke-width: 0.71; stroke: #BEA472; stroke-opacity: 0.70; fill: #BEA472; fill-opacity: 0.70;' />
+<circle cx='483.57' cy='597.23' r='25.67pt' style='stroke-width: 0.71; stroke: #BEA472; stroke-opacity: 0.70; fill: #BEA472; fill-opacity: 0.70;' />
+<circle cx='249.28' cy='574.87' r='22.07pt' style='stroke-width: 0.71; stroke: #B09766; stroke-opacity: 0.70; fill: #B09766; fill-opacity: 0.70;' />
+<circle cx='347.74' cy='626.09' r='24.80pt' style='stroke-width: 0.71; stroke: #BEA472; stroke-opacity: 0.70; fill: #BEA472; fill-opacity: 0.70;' />
+<circle cx='572.81' cy='579.84' r='28.63pt' style='stroke-width: 0.71; stroke: #BEA472; stroke-opacity: 0.70; fill: #BEA472; fill-opacity: 0.70;' />
+<circle cx='823.36' cy='706.77' r='38.33pt' style='stroke-width: 0.71; stroke: #CCB27E; stroke-opacity: 0.70; fill: #CCB27E; fill-opacity: 0.70;' />
+<circle cx='507.46' cy='415.01' r='30.34pt' style='stroke-width: 0.71; stroke: #BEA472; stroke-opacity: 0.70; fill: #BEA472; fill-opacity: 0.70;' />
+<circle cx='272.82' cy='544.02' r='21.02pt' style='stroke-width: 0.71; stroke: #B09766; stroke-opacity: 0.70; fill: #B09766; fill-opacity: 0.70;' />
+<circle cx='503.30' cy='703.43' r='53.70pt' style='stroke-width: 0.71; stroke: #BEA472; stroke-opacity: 0.70; fill: #BEA472; fill-opacity: 0.70;' />
+<line x1='397.35' y1='655.33' x2='396.69' y2='657.39' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='391.48' y='653.53' style='font-size: 11.38pt; font-family: Open Sans;'>AG</text>
+<line x1='121.05' y1='115.32' x2='123.48' y2='115.28' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='108.87' y='119.51' style='font-size: 11.38pt; font-family: Open Sans;'>AI</text>
+<line x1='352.01' y1='659.94' x2='353.63' y2='657.61' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='340.82' y='669.87' style='font-size: 11.38pt; font-family: Open Sans;'>AR</text>
+<line x1='508.28' y1='725.64' x2='504.97' y2='727.96' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='509.80' y='723.84' style='font-size: 11.38pt; font-family: Open Sans;'>BE</text>
+<line x1='498.17' y1='674.31' x2='499.51' y2='676.83' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='488.39' y='672.51' style='font-size: 11.38pt; font-family: Open Sans;'>BL</text>
+<line x1='708.80' y1='692.87' x2='707.33' y2='691.04' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='706.69' y='702.80' style='font-size: 11.38pt; font-family: Open Sans;'>BS</text>
+<line x1='597.78' y1='579.38' x2='595.63' y2='577.33' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='597.46' y='589.30' style='font-size: 11.38pt; font-family: Open Sans;'>FR</text>
+<line x1='940.56' y1='662.17' x2='938.88' y2='664.17' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='938.17' y='660.37' style='font-size: 11.38pt; font-family: Open Sans;'>GE</text>
+<line x1='394.36' y1='608.81' x2='395.58' y2='606.84' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='383.09' y='618.73' style='font-size: 11.38pt; font-family: Open Sans;'>GR</text>
+<line x1='833.29' y1='470.21' x2='830.87' y2='469.92' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='835.09' y='475.17' style='font-size: 11.38pt; font-family: Open Sans;'>JU</text>
+<line x1='376.84' y1='522.92' x2='376.14' y2='520.57' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='371.47' y='532.84' style='font-size: 11.38pt; font-family: Open Sans;'>LU</text>
+<line x1='935.44' y1='718.54' x2='934.64' y2='716.18' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='929.96' y='728.47' style='font-size: 11.38pt; font-family: Open Sans;'>NE</text>
+<line x1='371.89' y1='579.53' x2='374.83' y2='576.83' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='358.24' y='589.45' style='font-size: 11.38pt; font-family: Open Sans;'>SG</text>
+<line x1='562.76' y1='699.91' x2='563.58' y2='701.79' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='552.87' y='698.11' style='font-size: 11.38pt; font-family: Open Sans;'>SH</text>
+<line x1='485.46' y1='597.42' x2='483.57' y2='597.23' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='487.26' y='602.41' style='font-size: 11.38pt; font-family: Open Sans;'>SO</text>
+<line x1='250.71' y1='576.97' x2='249.28' y2='574.87' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='248.35' y='586.89' style='font-size: 11.38pt; font-family: Open Sans;'>SZ</text>
+<line x1='346.07' y1='627.93' x2='347.74' y2='626.09' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='333.45' y='637.86' style='font-size: 11.38pt; font-family: Open Sans;'>TG</text>
+<line x1='570.59' y1='580.00' x2='572.81' y2='579.84' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='559.32' y='584.53' style='font-size: 11.38pt; font-family: Open Sans;'>TI</text>
+<line x1='822.32' y1='704.97' x2='823.36' y2='706.77' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='811.38' y='703.17' style='font-size: 11.38pt; font-family: Open Sans;'>VD</text>
+<line x1='509.73' y1='413.41' x2='507.46' y2='415.01' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='511.53' y='411.63' style='font-size: 11.38pt; font-family: Open Sans;'>VS</text>
+<line x1='274.26' y1='546.62' x2='272.82' y2='544.02' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='270.13' y='556.54' style='font-size: 11.38pt; font-family: Open Sans;'>ZG</text>
+<line x1='500.61' y1='703.94' x2='503.30' y2='703.43' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='483.91' y='709.78' style='font-size: 11.38pt; font-family: Open Sans;'>ZH</text>
+<text x='80.19' y='742.00' style='font-size: 14.30pt; font-family: Open Sans;'>0</text>
+<text x='63.84' y='576.47' style='font-size: 14.30pt; font-family: Open Sans;'>20</text>
+<text x='63.84' y='410.95' style='font-size: 14.30pt; font-family: Open Sans;'>40</text>
+<text x='63.84' y='245.43' style='font-size: 14.30pt; font-family: Open Sans;'>60</text>
+<polyline points='82.71,758.59 979.65,758.59 ' style='stroke-width: 1.92; stroke: #7E8279;' />
+<polyline points='178.74,767.10 178.74,758.59 ' style='stroke-width: 0.64; stroke: #7E8279; stroke-linecap: butt;' />
+<polyline points='318.26,767.10 318.26,758.59 ' style='stroke-width: 0.64; stroke: #7E8279; stroke-linecap: butt;' />
+<polyline points='457.78,767.10 457.78,758.59 ' style='stroke-width: 0.64; stroke: #7E8279; stroke-linecap: butt;' />
+<polyline points='597.30,767.10 597.30,758.59 ' style='stroke-width: 0.64; stroke: #7E8279; stroke-linecap: butt;' />
+<polyline points='736.82,767.10 736.82,758.59 ' style='stroke-width: 0.64; stroke: #7E8279; stroke-linecap: butt;' />
+<polyline points='876.34,767.10 876.34,758.59 ' style='stroke-width: 0.64; stroke: #7E8279; stroke-linecap: butt;' />
+<text x='170.56' y='779.50' style='font-size: 14.30pt; font-family: Open Sans;'>15</text>
+<text x='310.08' y='779.50' style='font-size: 14.30pt; font-family: Open Sans;'>20</text>
+<text x='449.60' y='779.50' style='font-size: 14.30pt; font-family: Open Sans;'>25</text>
+<text x='589.12' y='779.50' style='font-size: 14.30pt; font-family: Open Sans;'>30</text>
+<text x='728.64' y='779.50' style='font-size: 14.30pt; font-family: Open Sans;'>35</text>
+<text x='868.16' y='779.50' style='font-size: 14.30pt; font-family: Open Sans;'>40</text>
+<text x='852.00' y='796.45' style='font-size: 17.60pt; fill: #7E8279; font-family: Open Sans Semibold;'>student_grants</text>
+<text transform='translate(43.10,566.42) rotate(-90)' style='font-size: 17.60pt; fill: #7E8279; font-family: Open Sans Semibold;'>Partis politiques en % (élections au Conseil national) PDC</text>
+<text x='82.71' y='78.07' style='font-size: 22.00pt; font-weight: bold; font-family: Open Sans;'>correlation: -0.463   p-value:  0.030</text>
+<text x='749.97' y='850.38' style='font-size: 10.00pt; fill: #737373; fill-opacity: 0.60; font-family: Open Sans;'>source: Office Fédéral de la Statistique | swissinfo.ch </text>
+</svg>
