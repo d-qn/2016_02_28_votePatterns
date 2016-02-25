@@ -44,58 +44,58 @@
 <circle cx='510.72' cy='473.57' r='30.36pt' style='stroke-width: 0.71; stroke: #789A99; stroke-opacity: 0.70; fill: #789A99; fill-opacity: 0.70;' />
 <circle cx='531.77' cy='155.98' r='21.05pt' style='stroke-width: 0.71; stroke: #789A99; stroke-opacity: 0.70; fill: #789A99; fill-opacity: 0.70;' />
 <circle cx='725.69' cy='165.20' r='53.70pt' style='stroke-width: 0.71; stroke: #6C8C8C; stroke-opacity: 0.70; fill: #6C8C8C; fill-opacity: 0.70;' />
-<line x1='535.30' y1='398.95' x2='536.23' y2='401.03' style='stroke-width: 1.07; stroke: #666666;' />
-<text x='524.91' y='397.15' style='font-size: 11.38pt; font-family: Open Sans;'>AG</text>
-<line x1='165.30' y1='935.22' x2='163.40' y2='935.22' style='stroke-width: 1.07; stroke: #666666;' />
-<text x='167.10' y='939.29' style='font-size: 11.38pt; font-family: Open Sans;'>AI</text>
-<line x1='276.25' y1='506.16' x2='278.47' y2='504.91' style='stroke-width: 1.07; stroke: #666666;' />
-<text x='260.21' y='515.25' style='font-size: 11.38pt; font-family: Open Sans;'>AR</text>
-<line x1='515.28' y1='424.76' x2='512.37' y2='426.62' style='stroke-width: 1.07; stroke: #666666;' />
-<text x='517.08' y='423.27' style='font-size: 11.38pt; font-family: Open Sans;'>BE</text>
-<line x1='631.85' y1='192.85' x2='629.96' y2='192.35' style='stroke-width: 1.07; stroke: #666666;' />
-<text x='633.65' y='199.14' style='font-size: 11.38pt; font-family: Open Sans;'>BL</text>
-<line x1='663.36' y1='126.80' x2='666.24' y2='125.89' style='stroke-width: 1.07; stroke: #666666;' />
-<text x='647.94' y='133.59' style='font-size: 11.38pt; font-family: Open Sans;'>BS</text>
-<line x1='791.19' y1='484.30' x2='788.96' y2='483.66' style='stroke-width: 1.07; stroke: #666666;' />
-<text x='792.99' y='490.72' style='font-size: 11.38pt; font-family: Open Sans;'>FR</text>
-<line x1='1209.24' y1='130.05' x2='1210.84' y2='132.45' style='stroke-width: 1.07; stroke: #666666;' />
-<text x='1198.02' y='128.25' style='font-size: 11.38pt; font-family: Open Sans;'>GE</text>
-<line x1='385.86' y1='937.34' x2='384.12' y2='935.22' style='stroke-width: 1.07; stroke: #666666;' />
-<text x='383.58' y='947.27' style='font-size: 11.38pt; font-family: Open Sans;'>GL</text>
-<line x1='420.45' y1='531.63' x2='422.98' y2='529.78' style='stroke-width: 1.07; stroke: #666666;' />
-<text x='404.78' y='541.56' style='font-size: 11.38pt; font-family: Open Sans;'>GR</text>
-<line x1='790.94' y1='686.77' x2='793.58' y2='686.58' style='stroke-width: 1.07; stroke: #666666;' />
-<text x='777.81' y='691.36' style='font-size: 11.38pt; font-family: Open Sans;'>JU</text>
-<line x1='447.36' y1='525.52' x2='447.12' y2='523.59' style='stroke-width: 1.07; stroke: #666666;' />
-<text x='440.98' y='535.44' style='font-size: 11.38pt; font-family: Open Sans;'>LU</text>
-<line x1='1013.88' y1='329.80' x2='1014.35' y2='331.72' style='stroke-width: 1.07; stroke: #666666;' />
-<text x='1005.01' y='328.00' style='font-size: 11.38pt; font-family: Open Sans;'>NE</text>
-<line x1='320.21' y1='229.60' x2='319.19' y2='227.07' style='stroke-width: 1.07; stroke: #666666;' />
-<text x='313.01' y='239.52' style='font-size: 11.38pt; font-family: Open Sans;'>NW</text>
+<line x1='535.82' y1='403.43' x2='536.23' y2='401.03' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='527.08' y='413.36' style='font-size: 11.38pt; font-family: Open Sans;'>AG</text>
+<line x1='165.29' y1='935.22' x2='163.40' y2='935.22' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='167.09' y='939.29' style='font-size: 11.38pt; font-family: Open Sans;'>AI</text>
+<line x1='278.27' y1='507.32' x2='278.47' y2='504.91' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='270.68' y='517.25' style='font-size: 11.38pt; font-family: Open Sans;'>AR</text>
+<line x1='514.63' y1='426.41' x2='512.37' y2='426.62' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='516.43' y='429.65' style='font-size: 11.38pt; font-family: Open Sans;'>BE</text>
+<line x1='627.14' y1='191.74' x2='629.96' y2='192.35' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='612.06' y='193.99' style='font-size: 11.38pt; font-family: Open Sans;'>BL</text>
+<line x1='664.47' y1='128.50' x2='666.24' y2='125.89' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='653.71' y='138.43' style='font-size: 11.38pt; font-family: Open Sans;'>BS</text>
+<line x1='786.30' y1='484.14' x2='788.96' y2='483.66' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='771.59' y='489.69' style='font-size: 11.38pt; font-family: Open Sans;'>FR</text>
+<line x1='1208.48' y1='134.06' x2='1210.84' y2='132.45' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='1192.61' y='143.98' style='font-size: 11.38pt; font-family: Open Sans;'>GE</text>
+<line x1='384.47' y1='937.21' x2='384.12' y2='935.22' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='378.39' y='947.14' style='font-size: 11.38pt; font-family: Open Sans;'>GL</text>
+<line x1='421.33' y1='532.31' x2='422.98' y2='529.78' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='409.84' y='542.23' style='font-size: 11.38pt; font-family: Open Sans;'>GR</text>
+<line x1='790.78' y1='686.57' x2='793.58' y2='686.58' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='777.65' y='690.63' style='font-size: 11.38pt; font-family: Open Sans;'>JU</text>
+<line x1='448.47' y1='525.62' x2='447.12' y2='523.59' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='445.27' y='535.54' style='font-size: 11.38pt; font-family: Open Sans;'>LU</text>
+<line x1='1012.09' y1='330.87' x2='1014.35' y2='331.72' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='995.38' y='331.44' style='font-size: 11.38pt; font-family: Open Sans;'>NE</text>
+<line x1='319.64' y1='229.78' x2='319.19' y2='227.07' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='311.05' y='239.71' style='font-size: 11.38pt; font-family: Open Sans;'>NW</text>
 <line x1='151.63' y1='935.22' x2='154.37' y2='935.22' style='stroke-width: 1.07; stroke: #666666;' />
 <text x='130.43' y='939.29' style='font-size: 11.38pt; font-family: Open Sans;'>OW</text>
-<line x1='368.19' y1='393.54' x2='370.49' y2='394.31' style='stroke-width: 1.07; stroke: #666666;' />
-<text x='351.86' y='394.55' style='font-size: 11.38pt; font-family: Open Sans;'>SG</text>
-<line x1='290.66' y1='324.43' x2='289.44' y2='322.00' style='stroke-width: 1.07; stroke: #666666;' />
-<text x='286.29' y='334.36' style='font-size: 11.38pt; font-family: Open Sans;'>SH</text>
-<line x1='452.33' y1='307.01' x2='449.87' y2='307.73' style='stroke-width: 1.07; stroke: #666666;' />
-<text x='454.13' y='308.32' style='font-size: 11.38pt; font-family: Open Sans;'>SO</text>
-<line x1='288.77' y1='285.27' x2='286.54' y2='285.24' style='stroke-width: 1.07; stroke: #666666;' />
-<text x='290.57' y='289.43' style='font-size: 11.38pt; font-family: Open Sans;'>SZ</text>
-<line x1='325.82' y1='527.51' x2='325.43' y2='529.97' style='stroke-width: 1.07; stroke: #666666;' />
-<text x='319.46' y='525.71' style='font-size: 11.38pt; font-family: Open Sans;'>TG</text>
-<line x1='615.16' y1='223.00' x2='617.04' y2='223.69' style='stroke-width: 1.07; stroke: #666666;' />
-<text x='603.89' y='224.65' style='font-size: 11.38pt; font-family: Open Sans;'>TI</text>
-<line x1='204.73' y1='933.01' x2='207.28' y2='935.22' style='stroke-width: 1.07; stroke: #666666;' />
-<text x='190.30' y='931.21' style='font-size: 11.38pt; font-family: Open Sans;'>UR</text>
-<line x1='1283.62' y1='330.36' x2='1283.21' y2='332.49' style='stroke-width: 1.07; stroke: #666666;' />
-<text x='1277.22' y='328.56' style='font-size: 11.38pt; font-family: Open Sans;'>VD</text>
-<line x1='513.50' y1='474.16' x2='510.72' y2='473.57' style='stroke-width: 1.07; stroke: #666666;' />
-<text x='515.30' y='480.00' style='font-size: 11.38pt; font-family: Open Sans;'>VS</text>
-<line x1='528.95' y1='154.09' x2='531.77' y2='155.98' style='stroke-width: 1.07; stroke: #666666;' />
-<text x='512.79' y='152.29' style='font-size: 11.38pt; font-family: Open Sans;'>ZG</text>
-<line x1='728.43' y1='163.73' x2='725.69' y2='165.20' style='stroke-width: 1.07; stroke: #666666;' />
-<text x='730.23' y='162.85' style='font-size: 11.38pt; font-family: Open Sans;'>ZH</text>
+<line x1='371.86' y1='396.33' x2='370.49' y2='394.31' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='368.54' y='406.26' style='font-size: 11.38pt; font-family: Open Sans;'>SG</text>
+<line x1='291.88' y1='320.62' x2='289.44' y2='322.00' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='293.68' y='319.51' style='font-size: 11.38pt; font-family: Open Sans;'>SH</text>
+<line x1='447.17' y1='307.48' x2='449.87' y2='307.73' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='430.26' y='310.70' style='font-size: 11.38pt; font-family: Open Sans;'>SO</text>
+<line x1='288.33' y1='287.42' x2='286.54' y2='285.24' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='286.76' y='297.34' style='font-size: 11.38pt; font-family: Open Sans;'>SZ</text>
+<line x1='328.34' y1='531.12' x2='325.43' y2='529.97' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='330.14' y='538.77' style='font-size: 11.38pt; font-family: Open Sans;'>TG</text>
+<line x1='614.30' y1='223.84' x2='617.04' y2='223.69' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='603.03' y='228.27' style='font-size: 11.38pt; font-family: Open Sans;'>TI</text>
+<line x1='210.87' y1='937.80' x2='207.28' y2='935.22' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='211.40' y='947.72' style='font-size: 11.38pt; font-family: Open Sans;'>UR</text>
+<line x1='1281.28' y1='333.22' x2='1283.21' y2='332.49' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='1264.41' y='340.84' style='font-size: 11.38pt; font-family: Open Sans;'>VD</text>
+<line x1='513.64' y1='475.38' x2='510.72' y2='473.57' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='515.44' y='484.60' style='font-size: 11.38pt; font-family: Open Sans;'>VS</text>
+<line x1='531.33' y1='153.83' x2='531.77' y2='155.98' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='522.75' y='152.03' style='font-size: 11.38pt; font-family: Open Sans;'>ZG</text>
+<line x1='726.84' y1='167.33' x2='725.69' y2='165.20' style='stroke-width: 1.07; stroke: #666666;' />
+<text x='722.56' y='177.26' style='font-size: 11.38pt; font-family: Open Sans;'>ZH</text>
 <text x='112.90' y='932.16' style='font-size: 14.30pt; font-family: Open Sans;'>0</text>
 <text x='96.54' y='729.83' style='font-size: 14.30pt; font-family: Open Sans;'>25</text>
 <text x='96.54' y='527.49' style='font-size: 14.30pt; font-family: Open Sans;'>50</text>

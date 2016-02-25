@@ -185,12 +185,3 @@ for (f in 1:length(qfiles)) {
 	dev.off()
 
 }
-
-
-
-
-
-
-
-
-
