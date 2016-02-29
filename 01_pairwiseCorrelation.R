@@ -8,12 +8,12 @@ library(svglite)
 ###   SETTINGS
 ############################################################################################
 
-svgoutput <- T
+svgoutput <- F
 svg.height <- 15
 svg.width <- svg.height * 1.3
 
 # query data.frame data
-qfiles <- c("data/reproductive_medicine.csv", "data/student_grants.csv", "data/inheritances_tax.csv", "data/radio_tv_act.csv")
+qfiles <- c("data/tax.csv", "data/deportation.csv", "data/foodstuffs.csv", "data/gotthard.csv")
 ## the votes data should have
 
 # indicator data

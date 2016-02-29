@@ -5,7 +5,7 @@ library(XLConnect)
 ############################################################################################
 
 # path to a data file used by SWI ballot visualisation
-infile <- 'data/ballot-visualization 14.06.2015.xlsx'
+infile <- 'data/ballot-visualization 28.02.2016.xlsx'
 
 ############################################################################################
 ###   Load and reformat vote data
